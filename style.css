@@ -1034,3 +1034,44 @@ a {
 #softSkil {
   margin-bottom: 30px;
 }
+
+#exp-title::after{
+  content: "Journey So Far";
+}
+#exp-title::before {
+  background: #fff;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 280px;
+  height: 3px;
+  transform: translateX(-50%);
+}
+#exp-content{
+  text-align: justify;
+}
+#exp-title-2 {
+  text-align: justify;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+#exp-com-name,#exp-res{
+  color: tomato;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#exp-date {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5px;
+  font-weight: bold;
+}
+#exp-res{
+  font-size: 20px;
+}
+ul{
+  list-style-position: inside;
+}
